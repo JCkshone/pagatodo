@@ -3,18 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		491775CE245283EE00838A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775CD245283EE00838A05 /* AppDelegate.swift */; };
 		491775D0245283EE00838A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775CF245283EE00838A05 /* SceneDelegate.swift */; };
 		491775D2245283EE00838A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775D1245283EE00838A05 /* ViewController.swift */; };
-		491775D5245283EE00838A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491775D3245283EE00838A05 /* Main.storyboard */; };
 		491775D7245283F200838A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491775D6245283F200838A05 /* Assets.xcassets */; };
 		491775DA245283F200838A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491775D8245283F200838A05 /* LaunchScreen.storyboard */; };
 		491775E5245283F200838A05 /* Pagatodo_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775E4245283F200838A05 /* Pagatodo_testTests.swift */; };
 		491775F0245283F200838A05 /* Pagatodo_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775EF245283F200838A05 /* Pagatodo_testUITests.swift */; };
+		491776382452847000838A05 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776082452847000838A05 /* PostModel.swift */; };
+		491776392452847000838A05 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776092452847000838A05 /* UserModel.swift */; };
+		4917763A2452847000838A05 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917760B2452847000838A05 /* UserViewModel.swift */; };
+		4917763B2452847000838A05 /* UserPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917760C2452847000838A05 /* UserPostViewModel.swift */; };
+		4917763C2452847000838A05 /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917760E2452847000838A05 /* CoreManager.swift */; };
+		4917763D2452847000838A05 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917760F2452847000838A05 /* HttpManager.swift */; };
+		4917763E2452847000838A05 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776112452847000838A05 /* UIView.swift */; };
+		4917763F2452847000838A05 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776122452847000838A05 /* MKMapView.swift */; };
+		491776402452847000838A05 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776132452847000838A05 /* UITextField.swift */; };
+		491776412452847000838A05 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776142452847000838A05 /* UIControl.swift */; };
+		491776422452847000838A05 /* HomeItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491776182452847000838A05 /* HomeItemTableViewCell.xib */; };
+		491776432452847000838A05 /* HomeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776192452847000838A05 /* HomeItemTableViewCell.swift */; };
+		491776442452847000838A05 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917761A2452847000838A05 /* HomeVC.swift */; };
+		491776452452847000838A05 /* UserPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917761C2452847000838A05 /* UserPostVC.swift */; };
+		491776462452847000838A05 /* PostItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917761E2452847000838A05 /* PostItemTableViewCell.swift */; };
+		491776472452847000838A05 /* PostItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4917761F2452847000838A05 /* PostItemTableViewCell.xib */; };
+		491776482452847000838A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491776202452847000838A05 /* Main.storyboard */; };
+		491776492452847000838A05 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776232452847000838A05 /* Lottie.swift */; };
+		4917764A2452847000838A05 /* Lottie.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491776242452847000838A05 /* Lottie.xib */; };
+		4917764B2452847000838A05 /* user-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 491776262452847000838A05 /* user-7.json */; };
+		4917764C2452847000838A05 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = 491776272452847000838A05 /* empty.json */; };
+		4917764D2452847000838A05 /* user-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 491776282452847000838A05 /* user-6.json */; };
+		4917764E2452847000838A05 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 491776292452847000838A05 /* search.json */; };
+		4917764F2452847000838A05 /* user-10.json in Resources */ = {isa = PBXBuildFile; fileRef = 4917762A2452847000838A05 /* user-10.json */; };
+		491776502452847000838A05 /* user-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4917762B2452847000838A05 /* user-1.json */; };
+		491776512452847000838A05 /* user-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4917762C2452847000838A05 /* user-3.json */; };
+		491776522452847000838A05 /* user-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4917762D2452847000838A05 /* user-2.json */; };
+		491776532452847000838A05 /* user-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 4917762E2452847000838A05 /* user-5.json */; };
+		491776542452847000838A05 /* user-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 4917762F2452847000838A05 /* user-9.json */; };
+		491776552452847000838A05 /* user-8.json in Resources */ = {isa = PBXBuildFile; fileRef = 491776302452847000838A05 /* user-8.json */; };
+		491776562452847000838A05 /* user-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 491776312452847000838A05 /* user-4.json */; };
+		491776572452847000838A05 /* HeaderProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776332452847000838A05 /* HeaderProfile.swift */; };
+		491776582452847000838A05 /* HeaderProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491776342452847000838A05 /* HeaderProfile.xib */; };
+		491776592452847000838A05 /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491776362452847000838A05 /* EmptyResponse.swift */; };
+		4917765A2452847000838A05 /* EmptyResponse.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491776372452847000838A05 /* EmptyResponse.xib */; };
+		4917765D245284AD00838A05 /* UserCoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4917765B245284AD00838A05 /* UserCoreModel.xcdatamodeld */; };
+		96CF11AF6F5BAE128D966980 /* Pods_Pagatodo_test_Pagatodo_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3193C2EFEF6D31095963ED87 /* Pods_Pagatodo_test_Pagatodo_testUITests.framework */; };
+		D5AD7B637A1EDCB0F13155A0 /* Pods_Pagatodo_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F0367F103D8C42535575E0 /* Pods_Pagatodo_testTests.framework */; };
+		E5D7ADD0FE300CB24EC05CC9 /* Pods_Pagatodo_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F501DF36AC87D0CA70990EAA /* Pods_Pagatodo_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +73,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F80CEAB9032CC6E57C929F9 /* Pods-Pagatodo-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pagatodo-testTests.release.xcconfig"; path = "Target Support Files/Pods-Pagatodo-testTests/Pods-Pagatodo-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		3193C2EFEF6D31095963ED87 /* Pods_Pagatodo_test_Pagatodo_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pagatodo_test_Pagatodo_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355537A892DFDD3BF559352A /* Pods-Pagatodo-test-Pagatodo-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pagatodo-test-Pagatodo-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pagatodo-test-Pagatodo-testUITests/Pods-Pagatodo-test-Pagatodo-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		491775CA245283EE00838A05 /* Pagatodo-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pagatodo-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491775CD245283EE00838A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		491775CF245283EE00838A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		491775D1245283EE00838A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		491775D4245283EE00838A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491775D6245283F200838A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491775D9245283F200838A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491775DB245283F200838A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +89,48 @@
 		491775EB245283F200838A05 /* Pagatodo-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pagatodo-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491775EF245283F200838A05 /* Pagatodo_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagatodo_testUITests.swift; sourceTree = "<group>"; };
 		491775F1245283F200838A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491776082452847000838A05 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		491776092452847000838A05 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4917760B2452847000838A05 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		4917760C2452847000838A05 /* UserPostViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostViewModel.swift; sourceTree = "<group>"; };
+		4917760E2452847000838A05 /* CoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
+		4917760F2452847000838A05 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		491776112452847000838A05 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		491776122452847000838A05 /* MKMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		491776132452847000838A05 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		491776142452847000838A05 /* UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
+		491776182452847000838A05 /* HomeItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeItemTableViewCell.xib; sourceTree = "<group>"; };
+		491776192452847000838A05 /* HomeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeItemTableViewCell.swift; sourceTree = "<group>"; };
+		4917761A2452847000838A05 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4917761C2452847000838A05 /* UserPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostVC.swift; sourceTree = "<group>"; };
+		4917761E2452847000838A05 /* PostItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostItemTableViewCell.swift; sourceTree = "<group>"; };
+		4917761F2452847000838A05 /* PostItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostItemTableViewCell.xib; sourceTree = "<group>"; };
+		491776202452847000838A05 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		491776232452847000838A05 /* Lottie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		491776242452847000838A05 /* Lottie.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Lottie.xib; sourceTree = "<group>"; };
+		491776262452847000838A05 /* user-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-7.json"; sourceTree = "<group>"; };
+		491776272452847000838A05 /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
+		491776282452847000838A05 /* user-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-6.json"; sourceTree = "<group>"; };
+		491776292452847000838A05 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		4917762A2452847000838A05 /* user-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-10.json"; sourceTree = "<group>"; };
+		4917762B2452847000838A05 /* user-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-1.json"; sourceTree = "<group>"; };
+		4917762C2452847000838A05 /* user-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-3.json"; sourceTree = "<group>"; };
+		4917762D2452847000838A05 /* user-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-2.json"; sourceTree = "<group>"; };
+		4917762E2452847000838A05 /* user-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-5.json"; sourceTree = "<group>"; };
+		4917762F2452847000838A05 /* user-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-9.json"; sourceTree = "<group>"; };
+		491776302452847000838A05 /* user-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-8.json"; sourceTree = "<group>"; };
+		491776312452847000838A05 /* user-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "user-4.json"; sourceTree = "<group>"; };
+		491776332452847000838A05 /* HeaderProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderProfile.swift; sourceTree = "<group>"; };
+		491776342452847000838A05 /* HeaderProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderProfile.xib; sourceTree = "<group>"; };
+		491776362452847000838A05 /* EmptyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
+		491776372452847000838A05 /* EmptyResponse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyResponse.xib; sourceTree = "<group>"; };
+		4917765C245284AD00838A05 /* UserCoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserCoreModel.xcdatamodel; sourceTree = "<group>"; };
+		575861AB89124E3BBB391BAB /* Pods-Pagatodo-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pagatodo-test.debug.xcconfig"; path = "Target Support Files/Pods-Pagatodo-test/Pods-Pagatodo-test.debug.xcconfig"; sourceTree = "<group>"; };
+		75F0367F103D8C42535575E0 /* Pods_Pagatodo_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pagatodo_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A26DFA02B3FF366E7CD78A /* Pods-Pagatodo-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pagatodo-testTests.debug.xcconfig"; path = "Target Support Files/Pods-Pagatodo-testTests/Pods-Pagatodo-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D590F93242A7C7F0E7ADB674 /* Pods-Pagatodo-test-Pagatodo-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pagatodo-test-Pagatodo-testUITests.release.xcconfig"; path = "Target Support Files/Pods-Pagatodo-test-Pagatodo-testUITests/Pods-Pagatodo-test-Pagatodo-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1C634A81A0800ED0534B4AA /* Pods-Pagatodo-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pagatodo-test.release.xcconfig"; path = "Target Support Files/Pods-Pagatodo-test/Pods-Pagatodo-test.release.xcconfig"; sourceTree = "<group>"; };
+		F501DF36AC87D0CA70990EAA /* Pods_Pagatodo_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pagatodo_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D7ADD0FE300CB24EC05CC9 /* Pods_Pagatodo_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AD7B637A1EDCB0F13155A0 /* Pods_Pagatodo_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +154,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CF11AF6F5BAE128D966980 /* Pods_Pagatodo_test_Pagatodo_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14DDCF199AF28231B3333191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F501DF36AC87D0CA70990EAA /* Pods_Pagatodo_test.framework */,
+				3193C2EFEF6D31095963ED87 /* Pods_Pagatodo_test_Pagatodo_testUITests.framework */,
+				75F0367F103D8C42535575E0 /* Pods_Pagatodo_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27A86D81EE02E31E32BAB83A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				575861AB89124E3BBB391BAB /* Pods-Pagatodo-test.debug.xcconfig */,
+				E1C634A81A0800ED0534B4AA /* Pods-Pagatodo-test.release.xcconfig */,
+				355537A892DFDD3BF559352A /* Pods-Pagatodo-test-Pagatodo-testUITests.debug.xcconfig */,
+				D590F93242A7C7F0E7ADB674 /* Pods-Pagatodo-test-Pagatodo-testUITests.release.xcconfig */,
+				85A26DFA02B3FF366E7CD78A /* Pods-Pagatodo-testTests.debug.xcconfig */,
+				2F80CEAB9032CC6E57C929F9 /* Pods-Pagatodo-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		491775C1245283EE00838A05 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +191,8 @@
 				491775E3245283F200838A05 /* Pagatodo-testTests */,
 				491775EE245283F200838A05 /* Pagatodo-testUITests */,
 				491775CB245283EE00838A05 /* Products */,
+				27A86D81EE02E31E32BAB83A /* Pods */,
+				14DDCF199AF28231B3333191 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +209,15 @@
 		491775CC245283EE00838A05 /* Pagatodo-test */ = {
 			isa = PBXGroup;
 			children = (
+				491776102452847000838A05 /* HelperViews */,
+				4917760D2452847000838A05 /* Manager */,
+				491776072452847000838A05 /* Model */,
+				491776152452847000838A05 /* View */,
+				4917760A2452847000838A05 /* ViewModel */,
 				491775CD245283EE00838A05 /* AppDelegate.swift */,
 				491775CF245283EE00838A05 /* SceneDelegate.swift */,
 				491775D1245283EE00838A05 /* ViewController.swift */,
-				491775D3245283EE00838A05 /* Main.storyboard */,
+				4917765B245284AD00838A05 /* UserCoreModel.xcdatamodeld */,
 				491775D6245283F200838A05 /* Assets.xcassets */,
 				491775D8245283F200838A05 /* LaunchScreen.storyboard */,
 				491775DB245283F200838A05 /* Info.plist */,
@@ -128,6 +243,148 @@
 			path = "Pagatodo-testUITests";
 			sourceTree = "<group>";
 		};
+		491776072452847000838A05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				491776082452847000838A05 /* PostModel.swift */,
+				491776092452847000838A05 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4917760A2452847000838A05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4917760B2452847000838A05 /* UserViewModel.swift */,
+				4917760C2452847000838A05 /* UserPostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4917760D2452847000838A05 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4917760E2452847000838A05 /* CoreManager.swift */,
+				4917760F2452847000838A05 /* HttpManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		491776102452847000838A05 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				491776112452847000838A05 /* UIView.swift */,
+				491776122452847000838A05 /* MKMapView.swift */,
+				491776132452847000838A05 /* UITextField.swift */,
+				491776142452847000838A05 /* UIControl.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		491776152452847000838A05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				491776162452847000838A05 /* Home */,
+				4917761B2452847000838A05 /* Post */,
+				491776202452847000838A05 /* Main.storyboard */,
+				491776212452847000838A05 /* Custom */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		491776162452847000838A05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				491776172452847000838A05 /* Cell */,
+				4917761A2452847000838A05 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		491776172452847000838A05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				491776182452847000838A05 /* HomeItemTableViewCell.xib */,
+				491776192452847000838A05 /* HomeItemTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4917761B2452847000838A05 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				4917761C2452847000838A05 /* UserPostVC.swift */,
+				4917761D2452847000838A05 /* Cell */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		4917761D2452847000838A05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4917761E2452847000838A05 /* PostItemTableViewCell.swift */,
+				4917761F2452847000838A05 /* PostItemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		491776212452847000838A05 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				491776222452847000838A05 /* Lottie */,
+				491776322452847000838A05 /* HeaderProfile */,
+				491776352452847000838A05 /* EmptyResponse */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		491776222452847000838A05 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				491776232452847000838A05 /* Lottie.swift */,
+				491776242452847000838A05 /* Lottie.xib */,
+				491776252452847000838A05 /* Files */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		491776252452847000838A05 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				491776262452847000838A05 /* user-7.json */,
+				491776272452847000838A05 /* empty.json */,
+				491776282452847000838A05 /* user-6.json */,
+				491776292452847000838A05 /* search.json */,
+				4917762A2452847000838A05 /* user-10.json */,
+				4917762B2452847000838A05 /* user-1.json */,
+				4917762C2452847000838A05 /* user-3.json */,
+				4917762D2452847000838A05 /* user-2.json */,
+				4917762E2452847000838A05 /* user-5.json */,
+				4917762F2452847000838A05 /* user-9.json */,
+				491776302452847000838A05 /* user-8.json */,
+				491776312452847000838A05 /* user-4.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		491776322452847000838A05 /* HeaderProfile */ = {
+			isa = PBXGroup;
+			children = (
+				491776332452847000838A05 /* HeaderProfile.swift */,
+				491776342452847000838A05 /* HeaderProfile.xib */,
+			);
+			path = HeaderProfile;
+			sourceTree = "<group>";
+		};
+		491776352452847000838A05 /* EmptyResponse */ = {
+			isa = PBXGroup;
+			children = (
+				491776362452847000838A05 /* EmptyResponse.swift */,
+				491776372452847000838A05 /* EmptyResponse.xib */,
+			);
+			path = EmptyResponse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +392,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 491775F4245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-test" */;
 			buildPhases = (
+				B424BC6BF2D87110FD6736D3 /* [CP] Check Pods Manifest.lock */,
 				491775C6245283EE00838A05 /* Sources */,
 				491775C7245283EE00838A05 /* Frameworks */,
 				491775C8245283EE00838A05 /* Resources */,
+				DDBDEDE4CE4A426BFD6F3555 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +411,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 491775F7245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-testTests" */;
 			buildPhases = (
+				3EC466841B41DB3804A2A268 /* [CP] Check Pods Manifest.lock */,
 				491775DC245283F200838A05 /* Sources */,
 				491775DD245283F200838A05 /* Frameworks */,
 				491775DE245283F200838A05 /* Resources */,
@@ -170,9 +430,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 491775FA245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-testUITests" */;
 			buildPhases = (
+				294278C8AED02C26D8A6DB27 /* [CP] Check Pods Manifest.lock */,
 				491775E7245283F200838A05 /* Sources */,
 				491775E8245283F200838A05 /* Frameworks */,
 				491775E9245283F200838A05 /* Resources */,
+				C762E09804E31BD9464C3FCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +494,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491776512452847000838A05 /* user-3.json in Resources */,
 				491775DA245283F200838A05 /* LaunchScreen.storyboard in Resources */,
+				4917764F2452847000838A05 /* user-10.json in Resources */,
+				491776422452847000838A05 /* HomeItemTableViewCell.xib in Resources */,
+				491776532452847000838A05 /* user-5.json in Resources */,
+				491776502452847000838A05 /* user-1.json in Resources */,
+				4917765A2452847000838A05 /* EmptyResponse.xib in Resources */,
+				491776562452847000838A05 /* user-4.json in Resources */,
+				4917764E2452847000838A05 /* search.json in Resources */,
+				491776472452847000838A05 /* PostItemTableViewCell.xib in Resources */,
+				491776522452847000838A05 /* user-2.json in Resources */,
+				4917764A2452847000838A05 /* Lottie.xib in Resources */,
+				4917764C2452847000838A05 /* empty.json in Resources */,
+				491776542452847000838A05 /* user-9.json in Resources */,
+				491776482452847000838A05 /* Main.storyboard in Resources */,
+				491776552452847000838A05 /* user-8.json in Resources */,
 				491775D7245283F200838A05 /* Assets.xcassets in Resources */,
-				491775D5245283EE00838A05 /* Main.storyboard in Resources */,
+				491776582452847000838A05 /* HeaderProfile.xib in Resources */,
+				4917764B2452847000838A05 /* user-7.json in Resources */,
+				4917764D2452847000838A05 /* user-6.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +533,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		294278C8AED02C26D8A6DB27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pagatodo-test-Pagatodo-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC466841B41DB3804A2A268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pagatodo-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B424BC6BF2D87110FD6736D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pagatodo-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C762E09804E31BD9464C3FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pagatodo-test-Pagatodo-testUITests/Pods-Pagatodo-test-Pagatodo-testUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pagatodo-test-Pagatodo-testUITests/Pods-Pagatodo-test-Pagatodo-testUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pagatodo-test-Pagatodo-testUITests/Pods-Pagatodo-test-Pagatodo-testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBDEDE4CE4A426BFD6F3555 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pagatodo-test/Pods-Pagatodo-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pagatodo-test/Pods-Pagatodo-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pagatodo-test/Pods-Pagatodo-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		491775C6245283EE00838A05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4917763E2452847000838A05 /* UIView.swift in Sources */,
+				4917763C2452847000838A05 /* CoreManager.swift in Sources */,
 				491775D2245283EE00838A05 /* ViewController.swift in Sources */,
+				4917763B2452847000838A05 /* UserPostViewModel.swift in Sources */,
+				491776412452847000838A05 /* UIControl.swift in Sources */,
+				4917765D245284AD00838A05 /* UserCoreModel.xcdatamodeld in Sources */,
+				4917763D2452847000838A05 /* HttpManager.swift in Sources */,
+				491776442452847000838A05 /* HomeVC.swift in Sources */,
+				4917763F2452847000838A05 /* MKMapView.swift in Sources */,
+				491776592452847000838A05 /* EmptyResponse.swift in Sources */,
+				491776492452847000838A05 /* Lottie.swift in Sources */,
+				4917763A2452847000838A05 /* UserViewModel.swift in Sources */,
+				491776572452847000838A05 /* HeaderProfile.swift in Sources */,
+				491776452452847000838A05 /* UserPostVC.swift in Sources */,
+				491776382452847000838A05 /* PostModel.swift in Sources */,
 				491775CE245283EE00838A05 /* AppDelegate.swift in Sources */,
+				491776462452847000838A05 /* PostItemTableViewCell.swift in Sources */,
+				491776392452847000838A05 /* UserModel.swift in Sources */,
 				491775D0245283EE00838A05 /* SceneDelegate.swift in Sources */,
+				491776402452847000838A05 /* UITextField.swift in Sources */,
+				491776432452847000838A05 /* HomeItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +697,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		491775D3245283EE00838A05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				491775D4245283EE00838A05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		491775D8245283F200838A05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +824,7 @@
 		};
 		491775F5245283F200838A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575861AB89124E3BBB391BAB /* Pods-Pagatodo-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +842,7 @@
 		};
 		491775F6245283F200838A05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C634A81A0800ED0534B4AA /* Pods-Pagatodo-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,8 +860,9 @@
 		};
 		491775F8245283F200838A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A26DFA02B3FF366E7CD78A /* Pods-Pagatodo-testTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Pagatodo-testTests/Info.plist";
@@ -487,8 +882,9 @@
 		};
 		491775F9245283F200838A05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F80CEAB9032CC6E57C929F9 /* Pods-Pagatodo-testTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Pagatodo-testTests/Info.plist";
@@ -508,8 +904,9 @@
 		};
 		491775FB245283F200838A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355537A892DFDD3BF559352A /* Pods-Pagatodo-test-Pagatodo-testUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Pagatodo-testUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,8 +924,9 @@
 		};
 		491775FC245283F200838A05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D590F93242A7C7F0E7ADB674 /* Pods-Pagatodo-test-Pagatodo-testUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Pagatodo-testUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,6 +982,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4917765B245284AD00838A05 /* UserCoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4917765C245284AD00838A05 /* UserCoreModel.xcdatamodel */,
+			);
+			currentVersion = 4917765C245284AD00838A05 /* UserCoreModel.xcdatamodel */;
+			path = UserCoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 491775C2245283EE00838A05 /* Project object */;
 }
