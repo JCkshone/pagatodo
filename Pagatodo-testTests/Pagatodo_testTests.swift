@@ -10,6 +10,9 @@ import XCTest
 @testable import Pagatodo_test
 
 class Pagatodo_testTests: XCTestCase {
+    
+    var user: User!
+    let httpManager = HttpManager.shareInstance
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +30,14 @@ class Pagatodo_testTests: XCTestCase {
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
+            testGetUsersFromApi()
             // Put the code you want to measure the time of here.
+        }
+    }
+    
+    func testGetUsersFromApi() {
+        httpManager.getUsers(from: "users") { users in
+            XCTAssertTrue(users.count > 0, "REQUEST IS READY")
         }
     }
 
