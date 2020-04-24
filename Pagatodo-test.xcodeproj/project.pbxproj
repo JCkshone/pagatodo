@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491775CE245283EE00838A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775CD245283EE00838A05 /* AppDelegate.swift */; };
+		491775D0245283EE00838A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775CF245283EE00838A05 /* SceneDelegate.swift */; };
+		491775D2245283EE00838A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775D1245283EE00838A05 /* ViewController.swift */; };
+		491775D5245283EE00838A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491775D3245283EE00838A05 /* Main.storyboard */; };
+		491775D7245283F200838A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491775D6245283F200838A05 /* Assets.xcassets */; };
+		491775DA245283F200838A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491775D8245283F200838A05 /* LaunchScreen.storyboard */; };
+		491775E5245283F200838A05 /* Pagatodo_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775E4245283F200838A05 /* Pagatodo_testTests.swift */; };
+		491775F0245283F200838A05 /* Pagatodo_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491775EF245283F200838A05 /* Pagatodo_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		491775E1245283F200838A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491775C2245283EE00838A05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491775C9245283EE00838A05;
+			remoteInfo = "Pagatodo-test";
+		};
+		491775EC245283F200838A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491775C2245283EE00838A05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491775C9245283EE00838A05;
+			remoteInfo = "Pagatodo-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491775CA245283EE00838A05 /* Pagatodo-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pagatodo-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491775CD245283EE00838A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491775CF245283EE00838A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		491775D1245283EE00838A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		491775D4245283EE00838A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491775D6245283F200838A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491775D9245283F200838A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491775DB245283F200838A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491775E0245283F200838A05 /* Pagatodo-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pagatodo-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491775E4245283F200838A05 /* Pagatodo_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagatodo_testTests.swift; sourceTree = "<group>"; };
+		491775E6245283F200838A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491775EB245283F200838A05 /* Pagatodo-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pagatodo-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		491775EF245283F200838A05 /* Pagatodo_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagatodo_testUITests.swift; sourceTree = "<group>"; };
+		491775F1245283F200838A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491775C7245283EE00838A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491775DD245283F200838A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491775E8245283F200838A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491775C1245283EE00838A05 = {
+			isa = PBXGroup;
+			children = (
+				491775CC245283EE00838A05 /* Pagatodo-test */,
+				491775E3245283F200838A05 /* Pagatodo-testTests */,
+				491775EE245283F200838A05 /* Pagatodo-testUITests */,
+				491775CB245283EE00838A05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491775CB245283EE00838A05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491775CA245283EE00838A05 /* Pagatodo-test.app */,
+				491775E0245283F200838A05 /* Pagatodo-testTests.xctest */,
+				491775EB245283F200838A05 /* Pagatodo-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491775CC245283EE00838A05 /* Pagatodo-test */ = {
+			isa = PBXGroup;
+			children = (
+				491775CD245283EE00838A05 /* AppDelegate.swift */,
+				491775CF245283EE00838A05 /* SceneDelegate.swift */,
+				491775D1245283EE00838A05 /* ViewController.swift */,
+				491775D3245283EE00838A05 /* Main.storyboard */,
+				491775D6245283F200838A05 /* Assets.xcassets */,
+				491775D8245283F200838A05 /* LaunchScreen.storyboard */,
+				491775DB245283F200838A05 /* Info.plist */,
+			);
+			path = "Pagatodo-test";
+			sourceTree = "<group>";
+		};
+		491775E3245283F200838A05 /* Pagatodo-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				491775E4245283F200838A05 /* Pagatodo_testTests.swift */,
+				491775E6245283F200838A05 /* Info.plist */,
+			);
+			path = "Pagatodo-testTests";
+			sourceTree = "<group>";
+		};
+		491775EE245283F200838A05 /* Pagatodo-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				491775EF245283F200838A05 /* Pagatodo_testUITests.swift */,
+				491775F1245283F200838A05 /* Info.plist */,
+			);
+			path = "Pagatodo-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491775C9245283EE00838A05 /* Pagatodo-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491775F4245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-test" */;
+			buildPhases = (
+				491775C6245283EE00838A05 /* Sources */,
+				491775C7245283EE00838A05 /* Frameworks */,
+				491775C8245283EE00838A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pagatodo-test";
+			productName = "Pagatodo-test";
+			productReference = 491775CA245283EE00838A05 /* Pagatodo-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		491775DF245283F200838A05 /* Pagatodo-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491775F7245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-testTests" */;
+			buildPhases = (
+				491775DC245283F200838A05 /* Sources */,
+				491775DD245283F200838A05 /* Frameworks */,
+				491775DE245283F200838A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				491775E2245283F200838A05 /* PBXTargetDependency */,
+			);
+			name = "Pagatodo-testTests";
+			productName = "Pagatodo-testTests";
+			productReference = 491775E0245283F200838A05 /* Pagatodo-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		491775EA245283F200838A05 /* Pagatodo-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491775FA245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-testUITests" */;
+			buildPhases = (
+				491775E7245283F200838A05 /* Sources */,
+				491775E8245283F200838A05 /* Frameworks */,
+				491775E9245283F200838A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				491775ED245283F200838A05 /* PBXTargetDependency */,
+			);
+			name = "Pagatodo-testUITests";
+			productName = "Pagatodo-testUITests";
+			productReference = 491775EB245283F200838A05 /* Pagatodo-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491775C2245283EE00838A05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Jc;
+				TargetAttributes = {
+					491775C9245283EE00838A05 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					491775DF245283F200838A05 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 491775C9245283EE00838A05;
+					};
+					491775EA245283F200838A05 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 491775C9245283EE00838A05;
+					};
+				};
+			};
+			buildConfigurationList = 491775C5245283EE00838A05 /* Build configuration list for PBXProject "Pagatodo-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491775C1245283EE00838A05;
+			productRefGroup = 491775CB245283EE00838A05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491775C9245283EE00838A05 /* Pagatodo-test */,
+				491775DF245283F200838A05 /* Pagatodo-testTests */,
+				491775EA245283F200838A05 /* Pagatodo-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491775C8245283EE00838A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491775DA245283F200838A05 /* LaunchScreen.storyboard in Resources */,
+				491775D7245283F200838A05 /* Assets.xcassets in Resources */,
+				491775D5245283EE00838A05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491775DE245283F200838A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491775E9245283F200838A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491775C6245283EE00838A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491775D2245283EE00838A05 /* ViewController.swift in Sources */,
+				491775CE245283EE00838A05 /* AppDelegate.swift in Sources */,
+				491775D0245283EE00838A05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491775DC245283F200838A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491775E5245283F200838A05 /* Pagatodo_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491775E7245283F200838A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491775F0245283F200838A05 /* Pagatodo_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		491775E2245283F200838A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491775C9245283EE00838A05 /* Pagatodo-test */;
+			targetProxy = 491775E1245283F200838A05 /* PBXContainerItemProxy */;
+		};
+		491775ED245283F200838A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491775C9245283EE00838A05 /* Pagatodo-test */;
+			targetProxy = 491775EC245283F200838A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		491775D3245283EE00838A05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491775D4245283EE00838A05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		491775D8245283F200838A05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491775D9245283F200838A05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491775F2245283F200838A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		491775F3245283F200838A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491775F5245283F200838A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pagatodo-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pagatodo-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		491775F6245283F200838A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pagatodo-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pagatodo-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		491775F8245283F200838A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pagatodo-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pagatodo-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pagatodo-test.app/Pagatodo-test";
+			};
+			name = Debug;
+		};
+		491775F9245283F200838A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pagatodo-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pagatodo-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pagatodo-test.app/Pagatodo-test";
+			};
+			name = Release;
+		};
+		491775FB245283F200838A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pagatodo-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pagatodo-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pagatodo-test";
+			};
+			name = Debug;
+		};
+		491775FC245283F200838A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pagatodo-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pagatodo-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pagatodo-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491775C5245283EE00838A05 /* Build configuration list for PBXProject "Pagatodo-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491775F2245283F200838A05 /* Debug */,
+				491775F3245283F200838A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491775F4245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491775F5245283F200838A05 /* Debug */,
+				491775F6245283F200838A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491775F7245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491775F8245283F200838A05 /* Debug */,
+				491775F9245283F200838A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491775FA245283F200838A05 /* Build configuration list for PBXNativeTarget "Pagatodo-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491775FB245283F200838A05 /* Debug */,
+				491775FC245283F200838A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491775C2245283EE00838A05 /* Project object */;
+}
